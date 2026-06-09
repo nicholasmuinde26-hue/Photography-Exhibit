@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photography Exhibit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Animations -->
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    .fade-in.visible {
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+
+    @keyframes pulseBounce {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-4px) scale(1.05); }
+    }
+
+    .animate-pulse-bounce {
+      animation: pulseBounce 1.5s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .fade-in-btn {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Page Heading -->
+  <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mt-8 mb-2">
+    Photography Exhibit
+  </h1>
+
+  <!-- Subtitle -->
+  <p class="text-lg sm:text-xl text-center text-gray-600 mb-6">
+    Exploring Nature & History Through Photography
+  </p>
+
+  <!-- Main Grid -->
+  <div class="main-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 pb-20">
+    <!-- Card 1 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Colosseum in Rome" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Colosseum</h2>
+      <p class="description text-sm mt-1">
+        A historic amphitheater in Rome, Italy, known for its grandeur and ancient gladiatorial contests.
+      </p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="Snowy Alps" class="rounded-md" />
+      <h2 class="subheading font-semibold text-lg mt-2">The Alps</h2>
+      <p class="description text-sm mt-1">
+        Majestic mountain range in Europe, offering breathtaking views and popular skiing destinations.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+
+
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Sea waves" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Sea</h2>
+      <p class="description text-sm mt-1">
+        A calming view of the ocean waves, symbolizing serenity and endless horizons.
+      </p>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <!-- Card 4 -->
+    <div class="card rounded-lg p-4 bg-white shadow hover:shadow-lg hover:scale-105 transition-transform">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/forest.jpg" alt="Dense forest" class="rounded-md" />
+      <h2 class="subheading font-bold text-xl mt-2">The Forest</h2>
+      <p class="description text-sm mt-1">
+        A lush green forest, representing nature's beauty and tranquility.
+      </p>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop"
+    class="hidden fixed bottom-16 right-6 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition animate-pulse-bounce">
+    ↑ Top
+  </button>
+
+  <!-- Footer -->
+  <footer class="fixed bottom-0 left-0 w-full bg-gray-800 text-gray-200 text-center py-4">
+    © 2026 Nickh Photography Exhibit
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Scroll-triggered staggered animations
+    document.addEventListener("DOMContentLoaded", () => {
+      const cards = document.querySelectorAll(".card");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const index = Array.from(cards).indexOf(entry.target);
+              entry.target.style.animationDelay = `${index * 0.2}s`; // stagger
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      cards.forEach((card) => {
+        card.classList.add("fade-in");
+        observer.observe(card);
+      });
+    });
+
+    // Back to Top button logic
+    const backToTopBtn = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        if (backToTopBtn.classList.contains("hidden")) {
+          backToTopBtn.classList.remove("hidden");
+          backToTopBtn.classList.add("fade-in-btn");
+        }
+      } else {
+        backToTopBtn.classList.add("hidden");
+        backToTopBtn.classList.remove("fade-in-btn");
+      }
+    });
+
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
